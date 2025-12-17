@@ -21,7 +21,7 @@ return repo.save(stu);
 
 I
 
-@Override
 // Fetch all records
+@Override
 public List<Student> fetchRecord() {
 return repo.findA11();
