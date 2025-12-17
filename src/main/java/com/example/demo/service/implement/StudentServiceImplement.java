@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 public class StudentServiceImpl implements StudentService {
 
 @Autowired
-StudentRepos!tory repo;
+StudentRepository repo;
 
 @Override
 //create (or) Insert data
@@ -24,4 +24,5 @@ I
 // Fetch all records
 @Override
 public List<Student> fetchRecord() {
-return repo.findA11();
+    return repo.findAll();
+}
